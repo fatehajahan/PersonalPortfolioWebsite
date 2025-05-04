@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+
+  @variant sm {
+    padding-inline: 20px;
+  }
+
+  @variant lg {
+    padding-inline: 80px;
+  }
+
+  @variant xl {
+    padding-inline: 120px;
+  }
+}
+
+@theme {
+  --font-revolution: Protest Revolution, serif;
+  --font-open: Open Sans, serif;
+  --font-train: Train One, serif;
+  --font-urbanist: Urbanist, serif
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  gap: 40px;
+  animation: slide 20s linear infinite;
+  width: max-content; /* Ensures smooth animation */
+}
+
+.paused {
+  animation-play-state: paused; /* Stops animation when hovered */
+}
