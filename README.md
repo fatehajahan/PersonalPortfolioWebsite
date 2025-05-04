@@ -1,6 +1,47 @@
-# React + Vite
+# 💼 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built using **React**, **Tailwind CSS**, **JavaScript**, and **HTML**. This project showcases my work, skills, and the technologies I’m passionate about as a frontend developer.
+## 🚀 Live Demo
+
+[Click here to visit the live site](https://fateha-jahan.vercel.app/)
+
+## 📌 Features
+
+- **Single Page Application (SPA)** using **React Router DOM**
+- Responsive design with **Tailwind CSS**
+- **EmailJS** integration for direct email functionality via the contact form
+- Reusable **layout components** for consistent structure across pages
+- Fully functional navigation and routing between:
+  - Home
+  - About
+  - Projects
+  - Contact
+
+## 🛠️ Technologies Used
+
+| Technology      | Purpose                                      |
+|-----------------|----------------------------------------------|
+| React           | Frontend JavaScript library for UI building  |
+| Tailwind CSS    | Utility-first CSS framework for styling      |
+| React Router DOM| SPA routing and navigation                   |
+| EmailJS         | Sending emails directly from the contact form|
+| JavaScript      | Dynamic functionality                        |
+| HTML            | Page structure and markup                    |
+
+## 🔗 Navigation
+
+Navigation between pages is handled using **React Router DOM**. A **Layout** component is used to encapsulate the **Navbar**, ensuring it is displayed consistently across all pages.
+
+---
+
+## 📬 Contact Form with EmailJS
+
+The contact form on the **Contact** page is powered by **EmailJS**, allowing users to send messages directly to my inbox without needing a backend service.
+
+---
+
+## 📷 Screenshots
+![alt text](image.png)
 
 Currently, two official plugins are available:
 
