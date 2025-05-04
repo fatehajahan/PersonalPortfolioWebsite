@@ -1,6 +1,5 @@
 import React from 'react'
 import banner from '../../assets/banner.png'
-// import resume from '../../assets/myResume.pdf'
 import resume from '../../assets/fatehaResume.pdf'
 import { Link } from 'react-router-dom'
 import 'animate.css';
@@ -10,13 +9,13 @@ import { Typewriter } from 'react-simple-typewriter';
 const Banner = () => {
   return (
     <div className='bg-[#F2F2F2]'>
-      <div className="container">
-        <div className='md:flex justify-between items-center md:py-[100px] py-[130px] md:text-left text-center'>
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+        <div className='md:flex justify-between items-center py-[130px] sm:py-[90px] md:py-[100px] md:text-left text-center'>
           <div className=''>
             <div className='flex flex-col gap-y-[15px]'>
-              <h1 className='md:text-[50px] text-[20px] font-bold underline'>Hello</h1>
-              <p className='md:text-[80px] text-[40px]'>I'm <Link to='/aboutme' className='md:text-[59px] text-[35px] font-urbanist pl-[17px] underline '>Fateha Jahan</Link></p>
-              <span className="text-[#6b46c1] font-bold md:text-[29px] text-[19px]">
+              <h1 className='text-[24px] sm:text-[35px] md:text-[45px] lg:text-[50px] font-bold underline'>Hello</h1>
+              <p className='text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px]'>I'm <Link to='/aboutme' className='text-[25px] md:text-[40px] underline '>Fateha Jahan</Link></p>
+              <span className="text-[#6b46c1] font-bold text-[18px] sm:text-[24px] md:text-[28px]">
                 <Typewriter
                   words={['Frontend Developer', 'React Enthusiast']}
                   loop={true}
@@ -41,7 +40,7 @@ const Banner = () => {
           </div>
 
           <div className='animate__animated animate__fadeInRight'>
-            <img src={banner} alt="" className='md:block hidden' />
+            <img src={banner} alt="" className='md:block hidden max-w-[100%] md:max-w-[300px] lg:max-w-full' />
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { FaRegCopyright } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-// import emailjs from "@emailjs/browser";
 import { getDatabase, push, ref } from "firebase/database";
 
 const Footer = () => {
@@ -40,24 +39,6 @@ const Footer = () => {
                             "Let's collaborate and combine our strengths to create something truly remarkable together!"
                         </p>
                     </div>
-
-                    {/* Subscription Form */}
-                    {/* <form onSubmit={handleSubscribe} className="mt-[30px] flex gap-[30px] items-center relative">
-                        <input
-                            type="email"
-                            placeholder="Type Your Email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                            className="border border-[#DCDCDC] py-[18px] px-[15px] block placeholder:text-[16px] w-[400px] rounded-4xl"
-                        />
-                        <button
-                            type="submit"
-                            className="bg-[#A78BFA] text-black font-urbanist text-[18px] py-[10px] text-center px-[15px] cursor-pointer rounded-4xl hover:bg-transparent transition duration-500 absolute md:right-[252px] right-[10px]"
-                        >
-                            Subscribe
-                        </button>
-                    </form> */}
                 </div>
 
                 <div className="md:w-1/2 md:text-right text-left md:px-0 px-[20px] md:pt-0 pt-[30px]">
