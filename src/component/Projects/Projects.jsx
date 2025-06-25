@@ -61,7 +61,7 @@ const Projects = () => {
             { img: figma2, label: 'Design', link: 'https://fatehajahan.github.io/html-css-project_01/' },
             { img: frontend1, label: 'Front-End', link: 'https://insta-app-omega.vercel.app/' },
             { img: frontend2, label: 'Front-End', link: 'https://petrol-nine.vercel.app/' },
-            { img: frontend3, label: 'Perfume Ecommerce', link: 'https://perfume-beryl.vercel.app/' }
+            { img: frontend3, label: 'Perfume Ecommerce', link: 'https://perfume-frontend-vert.vercel.app/' }
           ].map((project, index) => (
             <a
               key={index}
