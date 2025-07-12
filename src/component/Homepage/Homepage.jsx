@@ -14,7 +14,7 @@ const Homepage = () => {
       <Banner />
       <AboutMe />
       <Projects/>
-      <Review/>
+      {/* <Review/> */}
       <Contactme/>
       <Footer/>
     </div>

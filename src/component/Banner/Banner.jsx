@@ -17,7 +17,7 @@ const Banner = () => {
               <p className='text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px]'>I'm <Link to='/aboutme' className='text-[25px] md:text-[40px] underline '>Fateha Jahan</Link></p>
               <span className="text-[#6b46c1] font-bold text-[18px] sm:text-[24px] md:text-[28px]">
                 <Typewriter
-                  words={['Frontend Developer', 'React Enthusiast']}
+                  words={['MERN Developer', 'React Enthusiast', 'Frontend Developer']}
                   loop={true}
                   cursor
                   cursorStyle="|"

@@ -32,7 +32,7 @@ const AboutMe = () => {
 
   return (
     <div
-      className='md:py-[60px] py-[70px] lg:py-[150px]'
+      className='md:py-[60px] py-[40px] lg:py-[150px]'
       data-aos={scrollDirection === "down" ? "fade-up" : "fade-down"}
       data-aos-duration="1500"
     >
@@ -52,7 +52,7 @@ const AboutMe = () => {
           <div className='w-full lg:w-1/2 text-center lg:text-left'>
             <h1 className='font-revolution text-[28px] sm:text-[36px] md:text-[45px] mb-4'>About Me</h1>
 
-            <p className='text-[18px] sm:text-[20px] md:text-[22px] leading-[32px] sm:leading-[38px] md:leading-[45px] font-urbanist text-justify px-4 sm:px-6 md:px-0'>
+            <p className='text-[18px] sm:text-[20px] md:text-[22px] leading-[32px] sm:leading-[38px] md:leading-[45px] font-urbanist text-left px-4 sm:px-6 md:px-0'>
               I’m a passionate frontend developer with a strong eye for design and a deep understanding of modern web technologies.
               I specialize in React.js, leveraging Tailwind CSS and Google Fonts to create sleek, responsive, and user-friendly interfaces.
               I love transforming ideas into interactive, pixel-perfect web experiences. Whether it's refining UI/UX, optimizing code for efficiency,
