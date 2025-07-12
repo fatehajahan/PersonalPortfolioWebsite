@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from '../../assets/banner.png'
-import resume from '../../assets/fatehaResume.pdf'
+import resume from '../../assets/MERN_Developer_Fateha_Jahan.pdf'
 import { Link } from 'react-router-dom'
 import 'animate.css';
 import { Typewriter } from 'react-simple-typewriter';
